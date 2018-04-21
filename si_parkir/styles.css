@@ -1,0 +1,108 @@
+* {margin:0; padding:0;}
+ 
+body {
+ background-color:#fff;
+ font-family:Arial, Helvetica, sans-serif;
+ color:#000;
+ margin-left: 100px; width: 80%;
+}
+
+.menu {
+ margin:auto;
+ display: inline-block;
+ text-align: center;
+ width: 100%;
+} 
+
+.app-menu ul {
+ display: none;
+}
+
+nav ul li:hover > ul{
+display: block;
+width: 150px;
+}
+
+nav ul {
+ background: #00675b;
+ padding: 0 20px;
+ list-style: none;
+ position: relative;
+ display: inline-table;
+ width: 100%;
+}
+
+nav ul:after {
+ content: ""; 
+ clear:both; 
+ display: block;
+}
+
+nav ul li{
+ float:left;
+}
+
+.app-menu-item:hover{
+ background:#666;
+}
+
+.app-submenu:hover a{
+ color:#fff;
+}
+
+.app-menu-item, a{
+ display: block;
+ padding: 25px;
+ color: #fff;
+ text-decoration: none;
+}
+
+
+.item{
+ background: #00675b;
+ border-radius: 0px;
+ padding: 0;
+ position: absolute;
+ top:100%;
+}
+.app-submenu{
+ float:none;
+ border-top: 1px soild ;
+ border-bottom: 1px solid #00675b;
+ position: relative;
+}
+
+.app-submenu a{
+ padding: 15px 40px;
+ color: #fff;
+}
+
+.app-submenu a:hover{
+ background-color: #666;
+}
+
+nav ul ul ul{
+ position: absolute;
+ left: 100%;
+ top: 0;
+}
+
+/*disply*/
+#link{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background:yellow;
+}
+#box2{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background:green;
+}
+#span{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background:blue;
+}
